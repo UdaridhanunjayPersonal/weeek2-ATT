@@ -23,3 +23,18 @@ public class exp2 {
 	}
 
 }
+Thread.sleep(3000);
+		WebElement fn=driver.findElement(By.xpath("//*[id=\"acc_first_name"]));
+		fn.sendkeys("ganesh naik");
+		WebElement ln=driver.findElement(By.xpath("//*[id=\"acc_last_name"]));
+		ln.sendkeys("lavoodya");
+		WebElement en=driver.findElement(By.xpath("//*[id=\"acc__user email"]));
+		en.sendkeys("22r01a7399@gmail.com");
+		WebElement cn=driver.findElement(By.xpath("//*[id=\"acc_user"]));
+		cn.sendkeys("123456");
+		WebElement fn=driver.findElement(By.xpath("//*[id=\"acc_first_name"]));
+		fn.sendkeys("123456");
+		WebElement pn=driver.findElement(By.xpath("//*[id=\"acc_first_name"]));
+		pn.sendkeys("8374585828");
+		WebElement fn=driver.findElement(By.xpath("//*[id=\"acc_first_name"]));
+		sub.clic
